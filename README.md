@@ -4,6 +4,7 @@ GitHub repository explorer that loads the github list paginated and allows to st
  Note :
  
 • When fetching GitHub repositories, the list is limited to a total count of 1000 due to GitHub constraints. 
+
 • Local storage is used to starred the particular GitHub repository
 
 ## Runbook

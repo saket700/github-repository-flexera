@@ -65,7 +65,7 @@ export const Card: React.FC<ICardDetails> = ({
             {githubDescription ? githubDescription : "-"}
           </p>
         </div>
-        <div className="flex pt-2 text-xs flex-wrap md:flex-nowrap">
+        <div className="flex pt-2 text-xs flex-wrap">
           {!!stargazersCount && (
             <>
               <p className="mb-3 font-normal text-gray-500 dark:text-gray-400 mr-3">

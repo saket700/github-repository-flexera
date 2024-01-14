@@ -1,9 +1,11 @@
 # github-repository-flexera
 GitHub repository explorer that loads the github list paginated and allows to star the repository.
-Note : the list is limited to total count of 1000 github repository as github doesn't fetch after 1000 list.
-       for particular starring github project, localstorage is used. 
 
-## Getting Started
+ Note :
+• When fetching GitHub repositories, the list is limited to a total count of 1000 due to GitHub constraints. 
+• Local storage is used to starred the particular GitHub repository
+
+## Runbook
 
 ### Dependencies
 
@@ -12,7 +14,7 @@ Note : the list is limited to total count of 1000 github repository as github do
 
 ### Installing
 
-* extract/download the project and go inside the root level of the project. Eg : github-repository-explorer.
+* extract/download the project and go inside the root level of the project. Eg : github-repository-flexera.
 * run command yarn for installation for dependencies.
 
 ### Executing program
